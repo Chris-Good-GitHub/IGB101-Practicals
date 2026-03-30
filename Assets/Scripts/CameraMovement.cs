@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +17,7 @@ public class CameraMovement : MonoBehaviour{
     private float adjRotSpeed;
     private Quaternion targetRotation;
 
+    [SerializeField] private AudioClip thunderRumble;
 
     // Start is called before the first frame update
     void Start(){
@@ -67,6 +69,13 @@ public class CameraMovement : MonoBehaviour{
                     objects[cameraIndex].GetComponent<AudioSource>().Play();
             }
         }
+        if (cameraIndex == 5)
+        {
+            if (!SoundManager.soundManager.playing)
+            {
+                SoundManager.soundManager.playing = true;
+                SoundManager.soundManager.Play(thunderRumble, transform, 1f);
+            }
+        }
     }
-
 }

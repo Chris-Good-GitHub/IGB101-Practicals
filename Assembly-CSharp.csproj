@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\RotateObject.cs" />
+    <Compile Include="Assets\Scripts\SoundManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AK Studio Art\Bust Of Sappho\Documentation\Technical Specifications - Bust Of Sappho.txt" />
