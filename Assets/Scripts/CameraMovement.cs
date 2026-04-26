@@ -69,13 +69,5 @@ public class CameraMovement : MonoBehaviour{
                     objects[cameraIndex].GetComponent<AudioSource>().Play();
             }
         }
-        if (cameraIndex == 5)
-        {
-            if (!SoundManager.soundManager.playing)
-            {
-                SoundManager.soundManager.playing = true;
-                SoundManager.soundManager.Play(thunderRumble, transform, 1f);
-            }
-        }
     }
 }
