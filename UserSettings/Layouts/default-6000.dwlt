@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 498}
   m_MaxSize: {x: 10000, y: 10000}
@@ -586,11 +586,17 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: -4346
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
+      - m_Data: -3108
       - m_Data: -1298
+      - m_Data: 49728
+      - m_Data: 49950
+      - m_Data: 49964
+      - m_Data: 50008
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -716,7 +722,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/IsaacR
+    - Assets/Chris-Good/Materials and Textures
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -738,16 +744,16 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52104
-    - m_Data: 52106
-    - m_Data: 52108
-    - m_Data: 52110
-    - m_Data: 52112
-    - m_Data: 52114
-    - m_Data: 52116
-    - m_Data: 52118
-    - m_Data: 52120
-    - m_Data: 52122
+    - m_Data: 49152
+    - m_Data: 49154
+    - m_Data: 49156
+    - m_Data: 49158
+    - m_Data: 49160
+    - m_Data: 49162
+    - m_Data: 49164
+    - m_Data: 49166
+    - m_Data: 49168
+    - m_Data: 49170
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -775,21 +781,21 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: []
+    m_SelectedIDs:
+    - m_Data: -4346
     m_LastClickedID:
-      m_Data: 0
+      m_Data: -4346
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52104
-    - m_Data: 52106
-    - m_Data: 52108
-    - m_Data: 52110
-    - m_Data: 52112
-    - m_Data: 52114
-    - m_Data: 52116
-    - m_Data: 52118
-    - m_Data: 52120
-    - m_Data: 52122
+    - m_Data: 49152
+    - m_Data: 49156
+    - m_Data: 49158
+    - m_Data: 49160
+    - m_Data: 49162
+    - m_Data: 49164
+    - m_Data: 49166
+    - m_Data: 49168
+    - m_Data: 49604
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -816,8 +822,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: -4346
+    m_LastClickedInstanceID: -4346
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -1340,7 +1347,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       displayed: 1
       id: UnityEditor.ProBuilder.MenuActionSettingsOverlay
-      index: 13
+      index: 12
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
@@ -1393,9 +1400,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 11.867072, y: 8.179398, z: 0.7076735}
+    m_Target: {x: -16.118141, y: 4.261009, z: -0.20755877}
     speed: 2
-    m_Value: {x: 11.867072, y: 8.179398, z: 0.7076735}
+    m_Value: {x: -16.118141, y: 4.261009, z: -0.20755877}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1441,13 +1448,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15995765, y: 0.5802685, z: -0.117511205, w: -0.7898698}
+    m_Target: {x: 0.0018627993, y: -0.97977966, z: 0.009121034, w: 0.19992632}
     speed: 2
-    m_Value: {x: -0.15995763, y: 0.5802685, z: -0.117511205, w: -0.7898698}
+    m_Value: {x: 0.0018490923, y: -0.98006606, z: 0.0091237025, w: 0.19845392}
   m_Size:
-    m_Target: 1.1206447
+    m_Target: 3.6418514
     speed: 2
-    m_Value: 1.1206447
+    m_Value: 3.6418514
   m_Ortho:
     m_Target: 0
     speed: 2
