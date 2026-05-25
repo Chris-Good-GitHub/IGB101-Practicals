@@ -1,23 +1,42 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class GameManager :MonoBehaviour{
-    public GameObject player;
+    public GameObject Player;
     //Step 2
     public int currentPickups = 0;
     public int maxPickups = 5;
     public bool levelComplete = false;
 
+    public Text pickupText;
 
-private void levelCompleteCheck()
-{
-    if (currentPickups >= maxPickups)
-        levelComplete = true;
-    else
-        levelComplete = false;
-}
+    public AudioSource[] audiosources;
+    public float aduioProximity = 5.0f;
 
-void Update()
+    void Update()
     {
-        levelCompleteCheck();
+        LevelCompleteCheck();
+        UpdateGUI();
+
     }
+
+
+    private void LevelCompleteCheck()
+    {
+        if (currentPickups >= maxPickups)
+        {
+            levelComplete = true;
+        } else
+        {
+            levelComplete = false;
+        }
+    }
+
+
+    private void UpdateGUI(){
+        pickupText.text = "Pickup: " + currentPickups + "/" + maxPickups;
+        }
 }

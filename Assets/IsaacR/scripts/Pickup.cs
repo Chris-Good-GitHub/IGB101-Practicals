@@ -2,15 +2,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Pickup :MonoBehaviour{
-    
     GameManager gameManager;
 
-void Start()
+    void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
     }
+
+
+     void Update()
+    {
+        
+    }
+
 private void OnTriggerEnter(Collider otherObject)
     {
         if (otherObject.transform.tag == "Player")
