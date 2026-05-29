@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4329234211920806058}
   - component: {fileID: 5797034039861415800}
+  - component: {fileID: 1462701473615749057}
+  - component: {fileID: 4275035361987875868}
   m_Layer: 0
   m_Name: Pickup Audio
   m_TagString: Untagged
@@ -44,8 +46,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_Resource: {fileID: 8300000, guid: f27c9d38b5b86c64c981697075717047, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -130,6 +132,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1462701473615749057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3408415072769565900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f05d8f13a89d146b2bdac40e726e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BlakeB::PickupAudio
+  audioSource: {fileID: 5797034039861415800}
+  pickupClip: {fileID: 8300000, guid: f27c9d38b5b86c64c981697075717047, type: 3}
+--- !u!65 &4275035361987875868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3408415072769565900}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &6167287607111427403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -182,6 +219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 5568390881799912373, guid: 930f5d5e320723043b1a0f293e760e87, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 52cd434a5876fde4b97e94dba7493de0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

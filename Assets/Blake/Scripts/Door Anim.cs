@@ -3,16 +3,26 @@ using UnityEngine;
 public class DoorAnim : MonoBehaviour
 {
     public Animation doorAnimation;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Transform player;
+    public float interactDistance = 3f;
+
     void Start()
     {
         doorAnimation = GetComponent<Animation>();
+
+        // Automatically find player if not assigned
+        if (player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player").transform;
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        // Check distance between player and door
+        float distance = Vector3.Distance(player.position, transform.position);
+
+        if (distance <= interactDistance && Input.GetKeyDown(KeyCode.F))
         {
             doorAnimation.Play();
         }

@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-n10746358" at "2026-05-25T04:11:47.0914712Z"
-OS: 'Windows 11  (10.0.22631) Enterprise' Language: 'en' Physical Memory: 32493 MB
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32581 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-05-29T08:19:11.6270815Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-25T04:11:47Z
+Date: 2026-05-29T08:19:11Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
@@ -15,23 +15,23 @@ C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/n10746358/Documents/GitHub/IGB101-Practicals
+C:/Users/User/Documents/GitHub/IGB101-Practicals
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-54658
+61883
 -licensingIpc
-LicenseClient-n10746358
+LicenseClient-User
 -job-worker-count
-7
+9
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/n10746358/Documents/GitHub/IGB101-Practicals
-C:/Users/n10746358/Documents/GitHub/IGB101-Practicals
+Successfully changed project path to: C:/Users/User/Documents/GitHub/IGB101-Practicals
+C:/Users/User/Documents/GitHub/IGB101-Practicals
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,13 +67,13 @@ C:/Users/n10746358/Documents/GitHub/IGB101-Practicals
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [23528]  Target information:
+Player connection [40424]  Target information:
 
-Player connection [23528]  * "[IP] 131.181.110.89 [Port] 0 [Flags] 2 [Guid] 2778371375 [EditorId] 2778371375 [Version] 1048832 [Id] WindowsEditor(7,LAB-GPS515-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [40424]  * "[IP] 192.168.20.2 [Port] 0 [Flags] 2 [Guid] 3282581664 [EditorId] 3282581664 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JFRQM2P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23528] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23528] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 7
+Player connection [40424] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [40424] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -84,60 +84,75 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/n10746358/Documents/GitHub/IGB101-Practicals/Assets
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/IGB101-Practicals/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2544)
     Vendor:   NVIDIA
-    VRAM:     24326 MB
-    Driver:   32.0.15.7247
+    VRAM:     8034 MB
+    Driver:   32.0.15.9174
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.10" at "2026-05-29T08:19:13.2539906Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              f224d637ea8b42059b3fa6c1cd49d6e2
+  Correlation Id:          135aa1439b14ec207884f0578531fdbd
+  External correlation Id: 6033809548086220578
+  Machine Id:              8zzkHWQAYdZ/dQFnK2DUqLBI4ds=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.10" (connect: 0.00s, validation: 0.00s, handshake: 1.48s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.10-notifications" at "2026-05-29T08:19:14.7374175Z"
+[Licensing::Module] Licensing Background thread has ended after 3.11s
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001904 seconds.
-- Loaded All Assemblies, in  0.415 seconds
+Registered in 0.169514 seconds.
+- Loaded All Assemblies, in 14.041 seconds
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.388 seconds
-Domain Reload Profiling: 800ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 14390ms
+	BeginReloadAssembly (11620ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (154ms)
+	RebuildCommonClasses (657ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (204ms)
+	LoadAllAssembliesAndSetupDomain (1549ms)
+		LoadAssemblies (11618ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (1546ms)
+			TypeCache.Refresh (1545ms)
+				TypeCache.ScanAssembly (1121ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (388ms)
+	FinalizeReload (351ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (340ms)
+		SetupLoadedEditorAssemblies (313ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (143ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -146,31 +161,19 @@ Domain Reload Profiling: 800ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.17.4'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-n10746358"
-[Licensing::IpcConnector] LicenseClient-n10746358 channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-n10746358-6000.3.10" at "2026-05-25T04:11:49.1881394Z"
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              6f5020e6d5654ce7bc0d5bdc79f24560
-  Correlation Id:          baf7e5e3371f6d384bc23dda0d9f237b
-  External correlation Id: 3632404590358558853
-  Machine Id:              yGpq+/7uMNtpd/NXIn+0247raCM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-n10746358-6000.3.10" (connect: 0.00s, validation: 0.00s, handshake: 1.83s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-n10746358-6000.3.10-notifications" at "2026-05-25T04:11:51.0230166Z"
-[Licensing::Module] Licensing Background thread has ended after 3.93s
-[Licensing::Module] Licensing is initialized (took 2.20s).
 [Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-C5PH-2CAW-HYZK-BDWH-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
 [Licensing::Module] License group:
   Id: 16767613764981-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.962 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+- Loaded All Assemblies, in 10.927 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -181,44 +184,569 @@ Package Manager log level set to [2]
 [MODES] Loading mode Default (0) for mode-current-id-Blake
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.700 seconds
-Domain Reload Profiling: 3658ms
-	BeginReloadAssembly (2358ms)
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 11646ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (522ms)
-		LoadAssemblies (371ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (10722ms)
+		LoadAssemblies (10297ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (243ms)
-			TypeCache.Refresh (166ms)
-				TypeCache.ScanAssembly (153ms)
-			BuildScriptInfoCaches (65ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (701ms)
+		AnalyzeDomain (502ms)
+			TypeCache.Refresh (438ms)
+				TypeCache.ScanAssembly (428ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (722ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (513ms)
+		SetupLoadedEditorAssemblies (452ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6575 unused Assets / (3.9 MB). Loaded Objects now: 7414.
-Memory consumption went from 155.4 MB to 151.5 MB.
-Total: 10.160700 ms (FindLiveObjects: 0.703300 ms CreateObjectMapping: 1.010200 ms MarkObjects: 6.084000 ms  DeleteObjects: 2.361900 ms)
+Unloading 6575 unused Assets / (4.8 MB). Loaded Objects now: 7414.
+Memory consumption went from 153.3 MB to 148.5 MB.
+Total: 6.071700 ms (FindLiveObjects: 0.439400 ms CreateObjectMapping: 0.438000 ms MarkObjects: 3.753600 ms  DeleteObjects: 1.440000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 101078.378492 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Door-Wood-Model-01.fbx
+  artifactKey: Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Door-Wood-Model-01.fbx using Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a985e57287f45e2ad68d3a258086aa7') in 1.0358068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.928695 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs
+  artifactKey: Guid(e4213956da99cf44c9dbc90e1cf857ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs using Guid(e4213956da99cf44c9dbc90e1cf857ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5d05c02e91883e00f61e4fdaa8be92c') in 0.0004654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043198 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Floor_Concrete.prefab
+  artifactKey: Guid(908cc25d3d13af043a7e00c42b7f2788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Floor_Concrete.prefab using Guid(908cc25d3d13af043a7e00c42b7f2788) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26147f92295fcaf3503018b6835e8034') in 0.5359375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.337997 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone
+  artifactKey: Guid(aeb80289b42df884e95032d0a2ab4ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone using Guid(aeb80289b42df884e95032d0a2ab4ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbbb54dd5ac429ad3d9184f400cf7a44') in 0.0005022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.819312 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Doors
+  artifactKey: Guid(a05221b2fd181c54b879864a4503c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Doors using Guid(a05221b2fd181c54b879864a4503c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96ebc769b276a0fbce8463aea6d80598') in 0.0005007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032852 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (1).prefab
+  artifactKey: Guid(3026cfe035107be4eb17b0ed93596957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (1).prefab using Guid(3026cfe035107be4eb17b0ed93596957) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdd7af654cd5e387e8bafe67169e5b71') in 0.0276475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.690083 seconds.
+  path: Assets/Blake/Imported Assets/Textures/Brick/Bricks059.png
+  artifactKey: Guid(3ea9495214757a24d9cfd09ab83d3257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Textures/Brick/Bricks059.png using Guid(3ea9495214757a24d9cfd09ab83d3257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c240ab9bc48090ff266b4ec4e6011a6') in 0.0228628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Blake/Imported Assets/Textures/Brick/Bricks059_4K-PNG_Roughness.png
+  artifactKey: Guid(09ffc2702fa09014cbc27b330a8bef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Textures/Brick/Bricks059_4K-PNG_Roughness.png using Guid(09ffc2702fa09014cbc27b330a8bef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f51aeff721828818a20add75f844682a') in 0.0116655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.437044 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.mat
+  artifactKey: Guid(12c7faa25ab84cf47b63336a6f0eae56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.mat using Guid(12c7faa25ab84cf47b63336a6f0eae56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc98003baa00495e62bdac71ffcbb842') in 0.0579202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.480923 seconds.
+  path: Assets/Blake/Scenes/Blake.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Scenes/Blake.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11746584290e2a34ca9c6d46dc048a2f') in 0.0157042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.135077 seconds.
+  path: Assets/Blake/Prefabs
+  artifactKey: Guid(90905fe6759d9d84299e005551ba72eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Prefabs using Guid(90905fe6759d9d84299e005551ba72eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8d75f256f30030439176c2b1d6fbb2') in 0.0004595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022724 seconds.
+  path: Assets/Blake/Prefabs/Pickup 1.prefab
+  artifactKey: Guid(930f5d5e320723043b1a0f293e760e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Prefabs/Pickup 1.prefab using Guid(930f5d5e320723043b1a0f293e760e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1903a64d5bf5e87f7a34f59e065d8d0f') in 0.0409023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.986698 seconds.
+  path: Assets/Blake/Prefabs/Brick Doorway.prefab
+  artifactKey: Guid(94ee7bc5460c35c499b235c44e01fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Prefabs/Brick Doorway.prefab using Guid(94ee7bc5460c35c499b235c44e01fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49746562a709f30a191664a97e6a7129') in 0.1724022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.784995 seconds.
+  path: Assets/Blake/Prefabs/Brick Doorway.prefab
+  artifactKey: Guid(94ee7bc5460c35c499b235c44e01fe9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Prefabs/Brick Doorway.prefab using Guid(94ee7bc5460c35c499b235c44e01fe9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f769181a6709d094a871ff81b6779f1') in 0.0413765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.943561 seconds.
+  path: Assets/Blake/Scenes/Blake.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Scenes/Blake.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffb4fc5d623de41b47f62117e5855efd') in 0.0130999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.420088 seconds.
+  path: Assets/IsaacR/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (1).prefab
+  artifactKey: Guid(fe3c391492f537848a3d600434358be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsaacR/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (1).prefab using Guid(fe3c391492f537848a3d600434358be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24cf584d54557699902d20306a027f85') in 0.0084621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-01.png
+  artifactKey: Guid(45b65febbb39882468bf8c38b04d2492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-01.png using Guid(45b65febbb39882468bf8c38b04d2492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a53c216a19873c619a85ae2a31231003') in 0.0105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Door-Stone-Model-01.png
+  artifactKey: Guid(22a90a0ad8a42554c892964288104240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Door-Stone-Model-01.png using Guid(22a90a0ad8a42554c892964288104240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39f94a27c787b00e084f2a878a539cab') in 0.0049789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.mat
+  artifactKey: Guid(5b986f76cb18ca442ac5951e8e2200c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.mat using Guid(5b986f76cb18ca442ac5951e8e2200c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba81bf7ca5e6ed51afc02a06d39535ed') in 0.0292305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Wood/Door-Wood-Model-02.fbx
+  artifactKey: Guid(0a5310446e5f8d84c82ab438ad3c3f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Wood/Door-Wood-Model-02.fbx using Guid(0a5310446e5f8d84c82ab438ad3c3f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ae8cba17a2a1a1e9b67baabbe6a3be1') in 0.0208984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-01.fbx
+  artifactKey: Guid(74ebe22ecd828b649b0abb2df1e8edd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-01.fbx using Guid(74ebe22ecd828b649b0abb2df1e8edd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'debabaf3c083228938cd6425b10ac609') in 0.019292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.mat
+  artifactKey: Guid(9da86aeef7d5f784589951871a548987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.mat using Guid(9da86aeef7d5f784589951871a548987) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a4fdf1b1900a557d81e4266c60ac5cd') in 0.0071609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.mat
+  artifactKey: Guid(244106ef2070e0946918056ec4bd963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.mat using Guid(244106ef2070e0946918056ec4bd963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd622ae6accd1c908fcb1d164e39ba287') in 0.0266658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.png
+  artifactKey: Guid(c858d6a56bc0ae54f80d241791e03b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.png using Guid(c858d6a56bc0ae54f80d241791e03b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '541d3fd4a9fd0f959d561282f8da6938') in 0.0047794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.png
+  artifactKey: Guid(adc4b68cc31d85c408cff305b2b6b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.png using Guid(adc4b68cc31d85c408cff305b2b6b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '018928ace49ffe5ae638616e373f6c4f') in 0.0043555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Wood/Door-Wood-Model-01.fbx
+  artifactKey: Guid(6e0428c31e5192b4a97352b907f3111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Wood/Door-Wood-Model-01.fbx using Guid(6e0428c31e5192b4a97352b907f3111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90f805ecf0ec7458806709e98b0b651c') in 0.0097655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (2).prefab
+  artifactKey: Guid(fe71c36daa1ab6247a99f9fd6368695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (2).prefab using Guid(fe71c36daa1ab6247a99f9fd6368695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1951ffd91133637cdcd004a7313b8c35') in 0.0058077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-02.png
+  artifactKey: Guid(59cf5371c628c164e8a87c40cb365c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-02.png using Guid(59cf5371c628c164e8a87c40cb365c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb965d33578e6d3f252f6e084539c276') in 0.0107691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (3).prefab
+  artifactKey: Guid(6afa0baa869dda1449abb5e759a7513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (3).prefab using Guid(6afa0baa869dda1449abb5e759a7513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f419787e09a3704ced031ca5555157cd') in 0.0073005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.png
+  artifactKey: Guid(6c91351508d216b40bd5206e28f1e4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.png using Guid(6c91351508d216b40bd5206e28f1e4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c4163a19ac64f499ab6be3c9dee5e51') in 0.0112206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Door-Stone-Model-02.fbx
+  artifactKey: Guid(81ecf8888cf4a7d49b85a85bf47cbc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Door-Stone-Model-02.fbx using Guid(81ecf8888cf4a7d49b85a85bf47cbc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '755104ff58b47d294b0b13f6bb3a0f9f') in 0.0093536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.png
+  artifactKey: Guid(ecca6d5cc9bad9847a78a375eda56aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.png using Guid(ecca6d5cc9bad9847a78a375eda56aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0ddd813039af9a1a6c96349355a0200') in 0.00481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.mat
+  artifactKey: Guid(fa7fadc7b74c7b44b80f5b0dea2d59f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.mat using Guid(fa7fadc7b74c7b44b80f5b0dea2d59f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fbb15f69cf949be837f883bb18ab172') in 0.0072716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-02.fbx
+  artifactKey: Guid(02fd31c035304be4a8be0e3de0117a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-02.fbx using Guid(02fd31c035304be4a8be0e3de0117a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f17035e40ae4990ea7743797d7a9640') in 0.008563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.mat
+  artifactKey: Guid(44fd9ee957898024ca8371af1b7e0398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.mat using Guid(44fd9ee957898024ca8371af1b7e0398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2a9a2c18f152cb6d7bc1067b90e4e48') in 0.0075197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-03.fbx
+  artifactKey: Guid(5233bcafa141f2e4888c2d7da2ca5a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-03.fbx using Guid(5233bcafa141f2e4888c2d7da2ca5a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0e98025949b7dfe753561a9be931a2e') in 0.0158095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IsaacR/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (2).prefab
+  artifactKey: Guid(e3a2df1c0549f6a44803455d20dfe02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsaacR/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (2).prefab using Guid(e3a2df1c0549f6a44803455d20dfe02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cfceaeb4ec3d62f6e60c0fc2b3ad455') in 0.0062701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.png
+  artifactKey: Guid(117a4b7c0c19f284e8a425f0cdbec98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.png using Guid(117a4b7c0c19f284e8a425f0cdbec98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8258baa8835c4d5e6aa93992c69ac6d2') in 0.0041679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.png
+  artifactKey: Guid(4060538865d89f244846f234cb47d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.png using Guid(4060538865d89f244846f234cb47d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07a2f50c649ee2aa10ddff1587fd127d') in 0.0054829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (1).prefab
+  artifactKey: Guid(e326efa3bf67ff04f9920dbd957aba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (1).prefab using Guid(e326efa3bf67ff04f9920dbd957aba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d04c9e1f9189747763c2fdb00411006') in 0.0063797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.png
+  artifactKey: Guid(dbacd9329da6c58468f4a1855ee33e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.png using Guid(dbacd9329da6c58468f4a1855ee33e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7879ebde828b31c9ac26168d8d7e3744') in 0.004349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Door-Stone-Model-01.fbx
+  artifactKey: Guid(95376650c5dd3504690211d997e35f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Door-Stone-Model-01.fbx using Guid(95376650c5dd3504690211d997e35f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31d9564bd3808d4adc5e8d03299b4810') in 0.0084596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.579180 seconds.
+  path: Assets/Blake/Scripts/Door Anim.cs
+  artifactKey: Guid(95be5cb6bda6218468aac3b3e99d2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Scripts/Door Anim.cs using Guid(95be5cb6bda6218468aac3b3e99d2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e189e103df226b9ba6ed43e463cc3e06') in 0.0005287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6568 unused Assets / (5.0 MB). Loaded Objects now: 7577.
+Memory consumption went from 155.3 MB to 150.3 MB.
+Total: 9.100900 ms (FindLiveObjects: 0.568400 ms CreateObjectMapping: 0.456500 ms MarkObjects: 6.019500 ms  DeleteObjects: 2.055300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-C5PH-2CAW-HYZK-BDWH-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 16767613764981-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling: 1318ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (660ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (5.0 MB). Loaded Objects now: 7503.
+Memory consumption went from 163.1 MB to 158.0 MB.
+Total: 7.292800 ms (FindLiveObjects: 0.933700 ms CreateObjectMapping: 0.463700 ms MarkObjects: 4.063800 ms  DeleteObjects: 1.830700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 54.766365 seconds.
+  path: Assets/Blake/Scripts/Door Anim.cs
+  artifactKey: Guid(95be5cb6bda6218468aac3b3e99d2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Scripts/Door Anim.cs using Guid(95be5cb6bda6218468aac3b3e99d2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '924415f4b861620f54a1cb998c6a13f5') in 0.013607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.462297 seconds.
+  path: Assets/Blake/Imported Assets/Animations/Door Animation.anim
+  artifactKey: Guid(436fb8b4ff35682438964542a635b3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Animations/Door Animation.anim using Guid(436fb8b4ff35682438964542a635b3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccb52d14097565b4f0547304b8eecf5a') in 0.0126363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.244599 seconds.
+  path: Assets/Chris-Good/Animations/Close Door.anim
+  artifactKey: Guid(db54c564d347e9947a30a1aa60317672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Animations/Close Door.anim using Guid(db54c564d347e9947a30a1aa60317672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6223a12913b51d89348febcf995af783') in 0.0017328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.304148 seconds.
+  path: Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-02.mat
+  artifactKey: Guid(2853249a7d053bd48972b31d60a60bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsaacR/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-02.mat using Guid(2853249a7d053bd48972b31d60a60bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7565f5980ce33370b77dbef245e9e1ad') in 0.3630449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-03.png
+  artifactKey: Guid(16db49039a16de24896fd3f0a23ea5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-03.png using Guid(16db49039a16de24896fd3f0a23ea5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd58eeda55fb14a48595cf20a80343df7') in 0.0083836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-03.mat
+  artifactKey: Guid(9860c1d62dbfdb247b2f75b1abc7020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris-Good/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-03.mat using Guid(9860c1d62dbfdb247b2f75b1abc7020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3a737a66c08cf87be01c6c37e480719') in 0.012496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.602 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.559 seconds
+Domain Reload Profiling: 1162ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (4.9 MB). Loaded Objects now: 7526.
+Memory consumption went from 163.1 MB to 158.2 MB.
+Total: 6.813100 ms (FindLiveObjects: 0.448200 ms CreateObjectMapping: 0.451500 ms MarkObjects: 4.169900 ms  DeleteObjects: 1.742600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
