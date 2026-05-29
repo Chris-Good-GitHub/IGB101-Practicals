@@ -1292,6 +1292,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1941813111}
+    - target: {fileID: 3943296631908442609, guid: 94ee7bc5460c35c499b235c44e01fe9b, type: 3}
+      propertyPath: interactDistance
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4033499379960955774, guid: 94ee7bc5460c35c499b235c44e01fe9b, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.7099996
@@ -20565,6 +20569,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1941813111}
+    - target: {fileID: 3943296631908442609, guid: 94ee7bc5460c35c499b235c44e01fe9b, type: 3}
+      propertyPath: interactDistance
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4033499379960955774, guid: 94ee7bc5460c35c499b235c44e01fe9b, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.7099996
@@ -21898,6 +21906,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1941813111}
+    - target: {fileID: 3943296631908442609, guid: 94ee7bc5460c35c499b235c44e01fe9b, type: 3}
+      propertyPath: interactDistance
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4033499379960955774, guid: 94ee7bc5460c35c499b235c44e01fe9b, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.1909094
