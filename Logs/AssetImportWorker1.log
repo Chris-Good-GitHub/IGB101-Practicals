@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32581 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-05-29T08:03:27.7363514Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-05-29T08:48:50.671339Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-29T08:03:27Z
+Date: 2026-05-29T08:48:50Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/User/Documents/GitHub/IGB101-Practicals
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61883
+63892
 -licensingIpc
 LicenseClient-User
 -job-worker-count
@@ -67,12 +67,12 @@ C:/Users/User/Documents/GitHub/IGB101-Practicals
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [23272]  Target information:
+Player connection [25752]  Target information:
 
-Player connection [23272]  * "[IP] 192.168.20.2 [Port] 0 [Flags] 2 [Guid] 4026155139 [EditorId] 4026155139 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JFRQM2P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25752]  * "[IP] 192.168.20.2 [Port] 0 [Flags] 2 [Guid] 285629083 [EditorId] 285629083 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JFRQM2P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23272] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23272] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25752] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25752] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -100,44 +100,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001607 seconds.
-- Loaded All Assemblies, in  0.373 seconds
+Registered in 0.001499 seconds.
+- Loaded All Assemblies, in  0.309 seconds
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.391 seconds
-Domain Reload Profiling: 761ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.301 seconds
+Domain Reload Profiling: 608ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (162ms)
-		LoadAssemblies (112ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (98ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (144ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (116ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (391ms)
+	FinalizeReload (301ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (354ms)
+		SetupLoadedEditorAssemblies (274ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (149ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -152,17 +152,17 @@ Begin MonoManager ReloadAssembly
 	ResponseStatus: Unsupported protocol version '1.17.4'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
 [Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.10" at "2026-05-29T08:03:29.3831046Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.10" at "2026-05-29T08:48:52.226298Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              aaba7cb787c1459a8e148af7db1e73fa
-  Correlation Id:          135aa1439b14ec207884f0578531fdbd
-  External correlation Id: 1715395014619929719
+  Session Id:              2905a18980c648c1b35f76aa2231cfc6
+  Correlation Id:          30efa42f3f27424a1e49d40ff8aedf82
+  External correlation Id: 5369572771282770765
   Machine Id:              8zzkHWQAYdZ/dQFnK2DUqLBI4ds=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.10" (connect: 0.00s, validation: 0.00s, handshake: 1.39s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.10-notifications" at "2026-05-29T08:03:30.7735294Z"
-[Licensing::Module] Licensing Background thread has ended after 3.04s
-[Licensing::Module] Licensing is initialized (took 1.55s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.10" (connect: 0.00s, validation: 0.00s, handshake: 1.65s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.10-notifications" at "2026-05-29T08:48:53.8814035Z"
+[Licensing::Module] Licensing Background thread has ended after 3.21s
+[Licensing::Module] Licensing is initialized (took 1.79s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-C5PH-2CAW-HYZK-BDWH-XXXX
@@ -174,8 +174,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.274 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.975 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -186,248 +186,188 @@ Package Manager log level set to [2]
 [MODES] Loading mode Default (0) for mode-current-id-Blake
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.707 seconds
-Domain Reload Profiling: 2977ms
-	BeginReloadAssembly (1698ms)
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 3581ms
+	BeginReloadAssembly (2150ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (486ms)
-		LoadAssemblies (321ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (664ms)
+		LoadAssemblies (661ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (255ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (158ms)
-			BuildScriptInfoCaches (69ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (707ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (61ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (619ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (535ms)
+		SetupLoadedEditorAssemblies (474ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (326ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (281ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6575 unused Assets / (4.9 MB). Loaded Objects now: 7413.
-Memory consumption went from 154.9 MB to 150.0 MB.
-Total: 6.341800 ms (FindLiveObjects: 0.416800 ms CreateObjectMapping: 0.407700 ms MarkObjects: 3.930900 ms  DeleteObjects: 1.585800 ms)
+Unloading 6576 unused Assets / (4.9 MB). Loaded Objects now: 7416.
+Memory consumption went from 155.3 MB to 150.4 MB.
+Total: 6.585200 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 0.384000 ms MarkObjects: 4.015800 ms  DeleteObjects: 1.723000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 100175.653502 seconds.
-  path: Assets/Blake/Imported Assets/Smoke.psd
-  artifactKey: Guid(509329fdac27c52469c237a31217b1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Smoke.psd using Guid(509329fdac27c52469c237a31217b1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c21e7f184dc9c98f0885d24c9aa6375b') in 0.0498232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.075237 seconds.
-  path: Assets/Blake/Imported Assets/Smoke.psd
-  artifactKey: Guid(509329fdac27c52469c237a31217b1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Smoke.psd using Guid(509329fdac27c52469c237a31217b1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'adfb146c8679dfd9478ee176ca8be14e') in 0.0825922 seconds
+  Time since last request: 102885.043119 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps
+  artifactKey: Guid(dc04268c3400d4847bb275f24b317970) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Cubemaps using Guid(dc04268c3400d4847bb275f24b317970) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4eaa47c6c7547fb8daed39c8e004b56') in 0.0626958 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.151524 seconds.
-  path: Assets/Blake/Imported Assets/Textures/Texturelabs_Soil_124M.jpg
-  artifactKey: Guid(bdc797b6e145a1d45a25fcd5ac05b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Textures/Texturelabs_Soil_124M.jpg using Guid(bdc797b6e145a1d45a25fcd5ac05b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd244b2b0ff7ad2460ba7b560e3b9ab69') in 0.0105887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.306312 seconds.
-  path: Assets/Blake/Imported Assets/Textures/Smoke.psd
-  artifactKey: Guid(509329fdac27c52469c237a31217b1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Textures/Smoke.psd using Guid(509329fdac27c52469c237a31217b1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e882332dd1acc4fe033571c318a6535a') in 0.0116638 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 542.246607 seconds.
-  path: Assets/Blake/Imported Assets/Textures/Smoke Mat.mat
-  artifactKey: Guid(55a919c8a10654f41a0f5a7490c072fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Textures/Smoke Mat.mat using Guid(55a919c8a10654f41a0f5a7490c072fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e4d84e7c588cc3aaa615a1b03cc5613') in 0.8741621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072060 seconds.
-  path: Assets/Blake/Imported Assets/Textures/Fire.mat
-  artifactKey: Guid(5767c8bc51089c244b4af657367a5165) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Textures/Fire.mat using Guid(5767c8bc51089c244b4af657367a5165) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87a67711236b6ed793966ac9a8653cd5') in 0.0158008 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.787410 seconds.
-  path: Assets/Blake/Scenes/Blake.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Scenes/Blake.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d70f419481c3d5586556cb7af9f8c78') in 0.0146619 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 187.839411 seconds.
-  path: Assets/Blake/Imported Assets/Materials/Coat of Arms Mat.mat
-  artifactKey: Guid(ed0540d268ddc694bb48e1776f9da180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Materials/Coat of Arms Mat.mat using Guid(ed0540d268ddc694bb48e1776f9da180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '124acc45e7b3085ed43af3a45b80e49a') in 0.5643308 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Blake/Imported Assets/Materials/Concrete Mat.mat
-  artifactKey: Guid(cfabf6ccf03940d4aaf2939b5d29ee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Materials/Concrete Mat.mat using Guid(cfabf6ccf03940d4aaf2939b5d29ee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6cae17d9cb9073ec59641a37ec23ec1') in 0.6477054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Blake/Imported Assets/Materials/Fireball.mat
-  artifactKey: Guid(63e140a2f42186542b4bfdb5f8150caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Materials/Fireball.mat using Guid(63e140a2f42186542b4bfdb5f8150caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62a585ecda37face61338c691e5ede5c') in 0.0221705 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blake/Imported Assets/Materials/Marble.mat
-  artifactKey: Guid(2e1fc8d763e68484b913dae2f7efd3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Materials/Marble.mat using Guid(2e1fc8d763e68484b913dae2f7efd3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c538903e69c449a6b39c280316c0e569') in 0.613886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.691139 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Corner-Wood-Model-02.fbx
-  artifactKey: Guid(748adb5b8f858f6468e2af9362da2150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Corner-Wood-Model-02.fbx using Guid(748adb5b8f858f6468e2af9362da2150) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afd1288efe8fc0bd78f297faddfec575') in 0.7967639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Door-Wood-Model-01.fbx
-  artifactKey: Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Door-Wood-Model-01.fbx using Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04337e110826c141aab900b80399d464') in 0.0309699 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Door-Wood-Model-03.fbx
-  artifactKey: Guid(5bd2be986c1e9824c9fc2e7b28a930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Door-Wood-Model-03.fbx using Guid(5bd2be986c1e9824c9fc2e7b28a930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a254f405cfc24daddf2c54809eb80d7f') in 0.0244448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-11.fbx
-  artifactKey: Guid(7d64f2d019c2b3144b083f3931cbb96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-11.fbx using Guid(7d64f2d019c2b3144b083f3931cbb96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f65238fe55218a074cc65ed5c2dc065') in 0.0388379 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-04.fbx
-  artifactKey: Guid(4530d001dac31db4e9b983bd62e2658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-04.fbx using Guid(4530d001dac31db4e9b983bd62e2658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e05a0ffde0eae2931cbd1e54d26d4c77') in 0.0246013 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Floor-Wood-Model-02.fbx
-  artifactKey: Guid(e9befa4495beba840ad08ac68756820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Floor-Wood-Model-02.fbx using Guid(e9befa4495beba840ad08ac68756820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71c8f9e251c7af17d059e95cd263dd09') in 0.0388644 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-09.fbx
-  artifactKey: Guid(3e8a43558db0cac478d4d6d833479cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-09.fbx using Guid(3e8a43558db0cac478d4d6d833479cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '074fc0892646fd128507aed9432ac331') in 0.0352196 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-05.fbx
-  artifactKey: Guid(6f775c39abfc0534cbcbb95e6d9bcc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-05.fbx using Guid(6f775c39abfc0534cbcbb95e6d9bcc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46d9290625af89a51362a6c00597a118') in 0.0275181 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Corner-Wood-Model-03.fbx
-  artifactKey: Guid(4258197bb6e4954499326e662d928b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Corner-Wood-Model-03.fbx using Guid(4258197bb6e4954499326e662d928b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9005e92cdc041719593194202c4fb5fd') in 0.0260273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-06.fbx
-  artifactKey: Guid(0349dbd9ca24d5543b4671a183d08f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-06.fbx using Guid(0349dbd9ca24d5543b4671a183d08f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17015cb26d4a057c8da4f84c6c0965e5') in 0.0335405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.926426 seconds.
-  path: Assets/Blake/Scenes/Blake.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Scenes/Blake.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bccd76fd94229b403f5fb110d8dc533f') in 0.0148032 seconds
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 14.png
+  artifactKey: Guid(1afa3bb09929ac146885ce34fa3ad643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 14.png using Guid(1afa3bb09929ac146885ce34fa3ad643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6781d67c314054008edcfd5657e1e85c') in 0.2169591 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.889834 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (3).prefab
-  artifactKey: Guid(912331f82e3fac14da3fb42b2d2eceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (3).prefab using Guid(912331f82e3fac14da3fb42b2d2eceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9da1081e6ce8525b2c86d0c272e31f4d') in 0.0359171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 0.000037 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 08.png
+  artifactKey: Guid(93e8d6b2567b32a469eaedae4a2105eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 08.png using Guid(93e8d6b2567b32a469eaedae4a2105eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14b551d9ee024c25762cc1078f20b28c') in 0.1934435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.674074 seconds.
-  path: Assets/Blake/Imported Assets/Textures/Brick/Bricks059_4K-PNG_Color.png
-  artifactKey: Guid(7622657704a21704bb3bacc3d0dbddbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Textures/Brick/Bricks059_4K-PNG_Color.png using Guid(7622657704a21704bb3bacc3d0dbddbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94201e1fb0ff6572dfa5b0fde1fcd924') in 0.0128885 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 04.png
+  artifactKey: Guid(f09eb56e8b93ce743b4c53c183b193dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 04.png using Guid(f09eb56e8b93ce743b4c53c183b193dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ad48485a2e56cf6c515162fdb8c5d76') in 0.0780825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 12.png
+  artifactKey: Guid(80e3e505e27ede14eaadcdacb9ef66fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 12.png using Guid(80e3e505e27ede14eaadcdacb9ef66fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd614fa6e4dffac2184df499c792e111f') in 0.0897228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 10.png
+  artifactKey: Guid(faad58a89b3e8d94fb5ed66534406761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 10.png using Guid(faad58a89b3e8d94fb5ed66534406761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfee5db08553d071d15565c9744fc5c9') in 0.1667894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 17.png
+  artifactKey: Guid(a3e768d657b0ce745891b836affb4c37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 17.png using Guid(a3e768d657b0ce745891b836affb4c37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83231111db897e3fd0637f1669a43373') in 0.1696192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.244513 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 04.png
+  artifactKey: Guid(f09eb56e8b93ce743b4c53c183b193dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 04.png using Guid(f09eb56e8b93ce743b4c53c183b193dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '442b6ed84338758dfb43bcd302c79593') in 0.3919113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 11.png
+  artifactKey: Guid(b6620cde3883e694fafc04c192256a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 11.png using Guid(b6620cde3883e694fafc04c192256a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd29cc2c7216e6cbdf73c71c4d4cf2655') in 0.0823563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 08.png
+  artifactKey: Guid(93e8d6b2567b32a469eaedae4a2105eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 08.png using Guid(93e8d6b2567b32a469eaedae4a2105eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8db30430c80af47415bc6686f720f70a') in 0.0774995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 09.png
+  artifactKey: Guid(73d0b6d5fa13a0641ac2b068ba1d452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 09.png using Guid(73d0b6d5fa13a0641ac2b068ba1d452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '298c6ff15f407192e94e98e40bfc4fa0') in 0.082449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 16.png
+  artifactKey: Guid(aca10504c01be2642997e9df79697fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 16.png using Guid(aca10504c01be2642997e9df79697fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b0f81c95794d9b3a7c083c81ecac4d2') in 0.0643962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 14.png
+  artifactKey: Guid(1afa3bb09929ac146885ce34fa3ad643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 14.png using Guid(1afa3bb09929ac146885ce34fa3ad643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2970b7f8ec19cee497793267ae94b00c') in 0.0616747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 05.png
+  artifactKey: Guid(27c99c98561111742bcff07a25433f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 05.png using Guid(27c99c98561111742bcff07a25433f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '272f409407d05868608d8cb4e2aaeee9') in 0.0898917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 13.png
+  artifactKey: Guid(7a77a814571da9f4095da2c470aa0743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Midgard Cubemap 13.png using Guid(7a77a814571da9f4095da2c470aa0743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3fc197c014535d470c2e508e429c6ba') in 0.0698691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.385972 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Materials/Midgard Cubemap 14.mat
+  artifactKey: Guid(0abae2a239f026046912a9051a7719e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Materials/Midgard Cubemap 14.mat using Guid(0abae2a239f026046912a9051a7719e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d3cae4012f095d6deab1e6cef36f91c') in 0.0197739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Blake/Imported Assets/Textures/Brick/Bricks059_4K-PNG_Displacement.png
-  artifactKey: Guid(77c4ace4025665240b020965313fbee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Imported Assets/Textures/Brick/Bricks059_4K-PNG_Displacement.png using Guid(77c4ace4025665240b020965313fbee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72c7c0622545eb9f9bb882b315230921') in 0.0131811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Blake/Imported Assets/Cubemaps/Materials/Midgard Cubemap 16.mat
+  artifactKey: Guid(c7711949437923b45839027e0c2ad54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Materials/Midgard Cubemap 16.mat using Guid(c7711949437923b45839027e0c2ad54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '852e3f7720916bd09759e90b2f090801') in 0.0063686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Blake/Imported Assets/Cubemaps/Materials/Midgard Cubemap 17.mat
+  artifactKey: Guid(c08f74352f5b8734898fac06c69c90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blake/Imported Assets/Cubemaps/Materials/Midgard Cubemap 17.mat using Guid(c08f74352f5b8734898fac06c69c90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e3851f8fd58a55ed3e1118d58b4771f') in 0.0069334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
