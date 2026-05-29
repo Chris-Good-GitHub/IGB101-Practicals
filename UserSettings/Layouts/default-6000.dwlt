@@ -166,7 +166,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 897
     y: 0
-    width: 276
+    width: 234
     height: 981
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -190,9 +190,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1173
+    x: 1131
     y: 0
-    width: 307
+    width: 322
     height: 981
   m_MinSize: {x: 232, y: 276}
   m_MaxSize: {x: 10002, y: 10026}
@@ -216,9 +216,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1480
+    x: 1453
     y: 0
-    width: 440
+    width: 467
     height: 981
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -677,7 +677,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 897
     y: 79
-    width: 274
+    width: 232
     height: 955
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -696,22 +696,29 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 53400
+      - m_Data: -15176
       m_LastClickedID:
-        m_Data: 0
+        m_Data: -15176
       m_ExpandedIDs:
-      - m_Data: -14884
-      - m_Data: -12966
-      - m_Data: -12954
-      - m_Data: -12694
-      - m_Data: -11942
-      - m_Data: -1674
-      - m_Data: 54838
-      - m_Data: 54892
+      - m_Data: -15168
+      - m_Data: -15056
+      - m_Data: -14994
+      - m_Data: -14972
+      - m_Data: -14858
+      - m_Data: -14692
+      - m_Data: -14682
+      - m_Data: -4380
+      - m_Data: -4154
+      - m_Data: -3400
+      - m_Data: -1298
+      - m_Data: 55406
+      - m_Data: 55536
+      - m_Data: 55590
+      - m_Data: 55736
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Cube (2)
+        m_OriginalName: Cube (2)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -719,10 +726,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 0
+          m_Data: 50826
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 7}
@@ -754,9 +761,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1480
+    x: 1453
     y: 79
-    width: 439
+    width: 466
     height: 955
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -805,9 +812,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1173
+    x: 1131
     y: 79
-    width: 305
+    width: 320
     height: 955
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -833,7 +840,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Chris-Good
+    - Assets/Blake/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -855,15 +862,16 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52886
-    - m_Data: 52888
-    - m_Data: 52890
-    - m_Data: 52892
-    - m_Data: 52894
-    - m_Data: 52896
-    - m_Data: 52898
-    - m_Data: 52900
-    - m_Data: 52902
+    - m_Data: 49078
+    - m_Data: 49080
+    - m_Data: 49082
+    - m_Data: 49084
+    - m_Data: 49086
+    - m_Data: 49088
+    - m_Data: 49090
+    - m_Data: 49092
+    - m_Data: 49094
+    - m_Data: 49096
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -892,25 +900,26 @@ MonoBehaviour:
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 53400
+    - m_Data: -15176
     m_LastClickedID:
-      m_Data: 53400
+      m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52886
-    - m_Data: 52888
-    - m_Data: 52890
-    - m_Data: 52892
-    - m_Data: 52894
-    - m_Data: 52896
-    - m_Data: 52900
-    - m_Data: 53392
-    - m_Data: 53424
-    - m_Data: 54608
+    - m_Data: 49078
+    - m_Data: 49080
+    - m_Data: 49082
+    - m_Data: 49084
+    - m_Data: 49086
+    - m_Data: 49088
+    - m_Data: 49092
+    - m_Data: 49094
+    - m_Data: 49096
+    - m_Data: 49494
+    - m_Data: 49496
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: HDRP Extract Me
-      m_OriginalName: HDRP Extract Me
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -918,10 +927,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 53342
+        m_Data: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 8}
@@ -934,8 +943,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 53400
-    m_LastClickedInstanceID: 53400
+    - m_Data: -15176
+    m_LastClickedInstanceID: -15176
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -1511,9 +1520,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 12.858921, y: 0.21852177, z: 23.15415}
+    m_Target: {x: -1.9503952, y: 2.1067061, z: -2.5045207}
     speed: 2
-    m_Value: {x: 12.858921, y: 0.21852177, z: 23.15415}
+    m_Value: {x: -1.9503952, y: 2.1067061, z: -2.5045207}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1559,13 +1568,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.041926138, y: -0.7609823, z: 0.04936351, w: -0.6455642}
+    m_Target: {x: 0.10316989, y: -0.09268201, z: 0.009706012, w: 0.9903125}
     speed: 2
-    m_Value: {x: -0.041851174, y: -0.76193386, z: 0.04942531, w: -0.6444085}
+    m_Value: {x: 0.10316747, y: -0.092679836, z: 0.009705784, w: 0.9902893}
   m_Size:
-    m_Target: 3.8057346
+    m_Target: 0.43574247
     speed: 2
-    m_Value: 3.8057346
+    m_Value: 0.43574247
   m_Ortho:
     m_Target: 0
     speed: 2
