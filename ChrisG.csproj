@@ -52,6 +52,7 @@
     <Compile Include="Assets\Chris-Good\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Chris-Good\Scripts\RotateObject.cs" />
     <Compile Include="Assets\Chris-Good\Scripts\LevelSwitch.cs" />
+    <Compile Include="Assets\Chris-Good\Scripts\PortalRiseAnimation.cs" />
     <Compile Include="Assets\Chris-Good\Scripts\Pickup.cs" />
     <Compile Include="Assets\Chris-Good\Scripts\DoorAnimation.cs" />
     <Compile Include="Assets\Chris-Good\Scripts\PlayerMovement.cs" />

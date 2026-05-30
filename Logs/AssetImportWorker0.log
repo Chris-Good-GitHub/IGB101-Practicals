@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16264 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris" at "2026-05-30T05:44:06.3969791Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris" at "2026-05-30T13:43:00.1239793Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-30T05:44:06Z
+Date: 2026-05-30T13:43:00Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/Unity Projects/IGB101-Practicals
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-8821
+40636
 -licensingIpc
 LicenseClient-chris
 -job-worker-count
@@ -67,12 +67,12 @@ D:/Unity Projects/IGB101-Practicals
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [23776]  Target information:
+Player connection [11516]  Target information:
 
-Player connection [23776]  * "[IP] 192.168.0.2 [Port] 0 [Flags] 2 [Guid] 1421322908 [EditorId] 1421322908 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BR6MOGS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11516]  * "[IP] 192.168.0.2 [Port] 0 [Flags] 2 [Guid] 2370974700 [EditorId] 2370974700 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BR6MOGS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23776] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23776] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11516] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11516] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -100,55 +100,55 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002367 seconds.
-- Loaded All Assemblies, in  0.490 seconds
+Registered in 0.002895 seconds.
+- Loaded All Assemblies, in  0.514 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              577d2ceb14a442d49603e1e3e96d30b2
-  Correlation Id:          b7129bfcba5677abe8767099bc4b3f47
-  External correlation Id: 1491508426246237321
+  Session Id:              2c93930517c14cefb1a436176311c55d
+  Correlation Id:          47d9da45f6cd85fb5735274ec181c493
+  External correlation Id: 7538581254689459600
   Machine Id:              vDHyUSAUdQ4B/w9NoV1s/bF2K5w=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-chris" (connect: 0.00s, validation: 0.00s, handshake: 1.06s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris-notifications" at "2026-05-30T05:44:07.4544815Z"
-[Licensing::Module] Licensing Background thread has ended after 1.06s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-chris" (connect: 0.00s, validation: 0.00s, handshake: 1.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris-notifications" at "2026-05-30T13:43:01.2016889Z"
+[Licensing::Module] Licensing Background thread has ended after 1.08s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.462 seconds
-Domain Reload Profiling: 946ms
-	BeginReloadAssembly (157ms)
+- Finished resetting the current domain, in  0.458 seconds
+Domain Reload Profiling: 963ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (209ms)
-		LoadAssemblies (151ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (139ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (204ms)
-				TypeCache.ScanAssembly (189ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (205ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (462ms)
+	FinalizeReload (459ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (417ms)
+		SetupLoadedEditorAssemblies (405ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (62ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (171ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,8 +163,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.832 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.774 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -176,622 +176,62 @@ Package Manager log level set to [2]
 [MODES] Loading mode Default (0) for mode-current-id-IGB101 Assignment 3 Group 16
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.770 seconds
-Domain Reload Profiling: 1597ms
-	BeginReloadAssembly (201ms)
+- Finished resetting the current domain, in  0.892 seconds
+Domain Reload Profiling: 1662ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (512ms)
-		LoadAssemblies (370ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (336ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (252ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (158ms)
-			BuildScriptInfoCaches (62ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (771ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (154ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (892ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (594ms)
+		SetupLoadedEditorAssemblies (693ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (335ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6573 unused Assets / (4.8 MB). Loaded Objects now: 7420.
-Memory consumption went from 154.4 MB to 149.6 MB.
-Total: 9.357800 ms (FindLiveObjects: 0.688500 ms CreateObjectMapping: 0.813000 ms MarkObjects: 5.636400 ms  DeleteObjects: 2.219300 ms)
+Unloading 6574 unused Assets / (5.5 MB). Loaded Objects now: 7421.
+Memory consumption went from 152.4 MB to 146.9 MB.
+Total: 10.971400 ms (FindLiveObjects: 1.055400 ms CreateObjectMapping: 0.491600 ms MarkObjects: 6.137200 ms  DeleteObjects: 3.286200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23170.445080 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-04.png
-  artifactKey: Guid(69b4732a9481c1c4ba46b1d458fa3a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-04.png using Guid(69b4732a9481c1c4ba46b1d458fa3a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75d923fd3a5fec302a9c422ac92fc32f') in 0.1106797 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Demo Scenes/Demo DungeonsSettings.lighting
-  artifactKey: Guid(3d3a8e2133698d843adbea238156c222) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Demo Scenes/Demo DungeonsSettings.lighting using Guid(3d3a8e2133698d843adbea238156c222) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c5b7e583fd58ddcaacdb3cdad0b81fe') in 0.0178503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Wall-Stone-Model-01.fbx
-  artifactKey: Guid(c8a232c4315f1124082197104feffe9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Wall-Stone-Model-01.fbx using Guid(c8a232c4315f1124082197104feffe9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '306539cb328f5c1780209047a4727efe') in 0.0531537 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Door-Stone-Model-02.fbx
-  artifactKey: Guid(81ecf8888cf4a7d49b85a85bf47cbc1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Door-Stone-Model-02.fbx using Guid(81ecf8888cf4a7d49b85a85bf47cbc1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f410ac604ce05176d0a1803895747406') in 0.0325806 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-02.png
-  artifactKey: Guid(605b52fe3aa7e4f4e88e7e23f776d940) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-02.png using Guid(605b52fe3aa7e4f4e88e7e23f776d940) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ab3c4b2030a8bf484faaed17826f4a5') in 0.0126671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/NOT_Lonely/LionStatue/ModelAndTextures/LionStatue_n.tga
-  artifactKey: Guid(45f6fbd33f62c5a499044cc4ef8d2339) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/NOT_Lonely/LionStatue/ModelAndTextures/LionStatue_n.tga using Guid(45f6fbd33f62c5a499044cc4ef8d2339) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0cbf4248d9b86231d65c11fcd3db63e3') in 0.0181914 seconds
+  Time since last request: 18123.349612 seconds.
+  path: Assets/Chris-Good/Animations/Close Door.anim
+  artifactKey: Guid(db54c564d347e9947a30a1aa60317672) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Chris-Good/Animations/Close Door.anim using Guid(db54c564d347e9947a30a1aa60317672) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41b55933b8d922acf79676aeb2358d0a') in 0.1121584 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (4).prefab
-  artifactKey: Guid(7b9c6a300ca94e84aa580ff42a8b8292) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (4).prefab using Guid(7b9c6a300ca94e84aa580ff42a8b8292) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c08175205a722fe743af70d5ff82773b') in 0.0178217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (2).prefab
-  artifactKey: Guid(d3301591cf1411b4d8850c063ec1b2d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (2).prefab using Guid(d3301591cf1411b4d8850c063ec1b2d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b004c2784136649b65c6e98902179836') in 0.016883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Demo Scenes/Demo Dungeons.unity
-  artifactKey: Guid(5d16060afb9b6a64e86da0304e3a615d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Demo Scenes/Demo Dungeons.unity using Guid(5d16060afb9b6a64e86da0304e3a615d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '977c124fe23cf6a4b40b2a41f12813db') in 0.0340734 seconds
+  path: Assets/_Recovery/0.unity
+  artifactKey: Guid(a98eb2ee850b56d4890d909e43e55218) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Recovery/0.unity using Guid(a98eb2ee850b56d4890d909e43e55218) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c33c9bb29db7c1fae6e9e8e4f4f230b1') in 0.0208757 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-10.fbx
-  artifactKey: Guid(c5ebeadff40677f428f920862a3f1e3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-10.fbx using Guid(c5ebeadff40677f428f920862a3f1e3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '655154922ebf3bf9b85957ffcaae9414') in 0.0200138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Wall-Stone-Model-07.fbx
-  artifactKey: Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Wall-Stone-Model-07.fbx using Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ef55343e66aa971cf723dc487264532') in 0.0171553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (6).prefab
-  artifactKey: Guid(0cf29fb7b25f2454cafc193efc74659c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (6).prefab using Guid(0cf29fb7b25f2454cafc193efc74659c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91af75cb646c057fcf824b3e531e7d8c') in 0.015803 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-10.mat
-  artifactKey: Guid(84adbdab398f5774c91098d795c84d1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-10.mat using Guid(84adbdab398f5774c91098d795c84d1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '323452856c15b534a33254c3aca5e632') in 0.0303154 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Corner-Wood-Model-01.fbx
-  artifactKey: Guid(63df4f3e5fe6f4f4f89ec3a5e087a491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Corner-Wood-Model-01.fbx using Guid(63df4f3e5fe6f4f4f89ec3a5e087a491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7899a069e0c5adc8ff47d2e1a9ada58') in 0.0161307 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-07.png
-  artifactKey: Guid(873c5c5ed605db24690f89923871b86e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-07.png using Guid(873c5c5ed605db24690f89923871b86e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '401d0a1e59ee18a2b57db433ab5dec04') in 0.0136995 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Demo Scenes/Asset Lineup Scene.unity
-  artifactKey: Guid(2a8115a97e64de04cb3bdf0460173e3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Demo Scenes/Asset Lineup Scene.unity using Guid(2a8115a97e64de04cb3bdf0460173e3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3d144d2e37fe35a79b0ef9b6a4c0241') in 0.0122159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.png
-  artifactKey: Guid(4060538865d89f244846f234cb47d4c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.png using Guid(4060538865d89f244846f234cb47d4c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe0b6cdb585bc816d258c8242d77d418') in 0.0157055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-07.fbx
-  artifactKey: Guid(55bf89779428ca0408a0ac364f64acdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Wall-Wood-Model-07.fbx using Guid(55bf89779428ca0408a0ac364f64acdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea4c31a86954af702f751fe4c06a6682') in 0.01409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-03.png
-  artifactKey: Guid(ce1573c7ae88f1743a2e76e73e14c534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-03.png using Guid(ce1573c7ae88f1743a2e76e73e14c534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '925653918e1c03e3094f6b5216201d9d') in 0.0136328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Wall-Stone-Model-06.fbx
-  artifactKey: Guid(6e47fb2c4bc7154499c144b3e215870d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Wall-Stone-Model-06.fbx using Guid(6e47fb2c4bc7154499c144b3e215870d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '254e3187c6ce8bdd24e761e80af9ff9c') in 0.0139229 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/NOT_Lonely
-  artifactKey: Guid(25ae4fa8ee48ee448b56532deb861153) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/NOT_Lonely using Guid(25ae4fa8ee48ee448b56532deb861153) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60f2813a652672f70b339920ddb13d99') in 0.011629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-09.mat
-  artifactKey: Guid(f7a8c1022c77fff4790e0d707ccd91cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-09.mat using Guid(f7a8c1022c77fff4790e0d707ccd91cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85cc568dc9b790964fe4eabce0b8b0ca') in 0.0128455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (3).prefab
-  artifactKey: Guid(04e6a0d45eab6a24180f11ac74ab0e71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (3).prefab using Guid(04e6a0d45eab6a24180f11ac74ab0e71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4fffc9c61514453c0c7820617ec7efa') in 0.0152412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (3).prefab
-  artifactKey: Guid(2e3557303b0b5774aba8c8e4f245d3a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (3).prefab using Guid(2e3557303b0b5774aba8c8e4f245d3a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '327468a7c06fd67348369ba102ebf293') in 0.0119023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors
-  artifactKey: Guid(93215ae02039349498ca9b866013468d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors using Guid(93215ae02039349498ca9b866013468d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27588e73ec71f25997b7c3993ed0f32c') in 0.0084298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models
-  artifactKey: Guid(e582ed4c24b728e40a93880b5b5a0659) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models using Guid(e582ed4c24b728e40a93880b5b5a0659) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '321e7dc7c0770711758dc37f3b79e43c') in 0.0093653 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-04.mat
-  artifactKey: Guid(566b1898345837d41a837826ac8f61d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-04.mat using Guid(566b1898345837d41a837826ac8f61d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '498ea36fb285015e5280d63cf0b283de') in 0.0140293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Demo Scenes
-  artifactKey: Guid(b1713ebdc75b45a4ba10a58b31351e97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Demo Scenes using Guid(b1713ebdc75b45a4ba10a58b31351e97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae438a368df13abee7b2f3ac727f7b25') in 0.0100089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Doors
-  artifactKey: Guid(c9a5f1b25cceea344b271ae29a95cf05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Doors using Guid(c9a5f1b25cceea344b271ae29a95cf05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9cb6d6859ca50f8f20ba14f57176c93') in 0.0085938 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (7).prefab
-  artifactKey: Guid(bb2119431d358ce419859bfad1efe79d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (7).prefab using Guid(bb2119431d358ce419859bfad1efe79d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ba9b530e4d8641f34fefebb9965e779') in 0.0113755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/NOT_Lonely/LionStatue/ModelAndTextures
-  artifactKey: Guid(738716313efd2d74abb18549af00ad5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/NOT_Lonely/LionStatue/ModelAndTextures using Guid(738716313efd2d74abb18549af00ad5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fac08468b7e8495a18183301cad22b37') in 0.0080815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (2).prefab
-  artifactKey: Guid(74b669fe92fe9174ebae205152ac9e61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (2).prefab using Guid(74b669fe92fe9174ebae205152ac9e61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65b237a5f66de4c6a8591d2eff92934b') in 0.0117433 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-03.mat
-  artifactKey: Guid(3f413147f079ccf4f9c492a01b0e39f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-03.mat using Guid(3f413147f079ccf4f9c492a01b0e39f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f8222a87e710198449b896a0746d533') in 0.0108572 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-01.png
-  artifactKey: Guid(b23359ca8f9cca44f85121625463e5d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-01.png using Guid(b23359ca8f9cca44f85121625463e5d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '140df0a42dc976ff40a07cb21045cc60') in 0.0227823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-07.mat
-  artifactKey: Guid(4428709e021064748a4ade09197d9609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-07.mat using Guid(4428709e021064748a4ade09197d9609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '205f1d1baa8d8d7efacabcc46709fa64') in 0.0138298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Floor-Stone-Model-02.fbx
-  artifactKey: Guid(64cabf81a7e08cf4bb69fb6cb5a29f68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Floor-Stone-Model-02.fbx using Guid(64cabf81a7e08cf4bb69fb6cb5a29f68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70236a67e4f2d8865c7ea8c10ef8b739') in 0.0122898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (4).prefab
-  artifactKey: Guid(f6efb6824389eab4d8cb9a0858c38a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (4).prefab using Guid(f6efb6824389eab4d8cb9a0858c38a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1740ccabf6d2709c7bb5c4578f8fec58') in 0.0206459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-01.png
-  artifactKey: Guid(1062c851ac463864a975a31507fa79b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-01.png using Guid(1062c851ac463864a975a31507fa79b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09c20e6b2282be45febb1a1c3407fbd5') in 0.0118389 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-03.png
-  artifactKey: Guid(b86e8d2f00e714c458cea7ffa4b81753) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-03.png using Guid(b86e8d2f00e714c458cea7ffa4b81753) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd35ae027db2a597d32d5cefdb22e1cb') in 0.0112399 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Wall-Stone-Model-05.fbx
-  artifactKey: Guid(ddb76fa9f72a2cf47859d4f8e4aa7694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Wall-Stone-Model-05.fbx using Guid(ddb76fa9f72a2cf47859d4f8e4aa7694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f15794e73414aed6b401738dd6ce4609') in 0.0161213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-04.mat
-  artifactKey: Guid(5d66cb4cf0d5ab54e8364c3f49894d76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-04.mat using Guid(5d66cb4cf0d5ab54e8364c3f49894d76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '164f0bfaf744da5c63d79ad6c301a45a') in 0.0111432 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-06.png
-  artifactKey: Guid(785d2f53d721c1248bc0114a59dded13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-06.png using Guid(785d2f53d721c1248bc0114a59dded13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd41a968f3d966aadfabd3cb39a1873e7') in 0.018783 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials
-  artifactKey: Guid(c3b2584f839cc8e48a34494a162a2556) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials using Guid(c3b2584f839cc8e48a34494a162a2556) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc8ad1a5f3163719ea95b935aac21938') in 0.0311756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Corners
-  artifactKey: Guid(1e16bd178761e4d40a0a175e88f8f2e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Corners using Guid(1e16bd178761e4d40a0a175e88f8f2e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b389a53c742f94dfe528a2ca2d33e95') in 0.0094526 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-12.png
-  artifactKey: Guid(a484a1cab5c216e4593450e16523b630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-12.png using Guid(a484a1cab5c216e4593450e16523b630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a97cb0fd0e55788fe5470f35de6751bf') in 0.011974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (8).prefab
-  artifactKey: Guid(33a04dd4d2bfd7c43bc362d02404c1c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (8).prefab using Guid(33a04dd4d2bfd7c43bc362d02404c1c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ffe9263c258dc7f6e6952169bd3d723') in 0.011645 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-04.mat
-  artifactKey: Guid(3b751f6271dce7747ab89d83050d6315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-04.mat using Guid(3b751f6271dce7747ab89d83050d6315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b1b08787f80e473d7222be1c2b730a8') in 0.0235419 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-03.mat
-  artifactKey: Guid(1ffecb36c5f325d4289432ab17cc12ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-03.mat using Guid(1ffecb36c5f325d4289432ab17cc12ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94b2d4806895a14267f929f4290420c0') in 0.0128629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-02.mat
-  artifactKey: Guid(0fc3020a2505de74fab37954d521ed71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-02.mat using Guid(0fc3020a2505de74fab37954d521ed71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f20846010bc624bda299a3e1adb34fb') in 0.0096419 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (12).prefab
-  artifactKey: Guid(fb59533c38f3c0f4ca418d60818b0fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (12).prefab using Guid(fb59533c38f3c0f4ca418d60818b0fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b01873f91c5ad3d904b6bf465dd08dca') in 0.0109218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-02.png
-  artifactKey: Guid(154d9fe3e4996fc4993c367f328b33c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-02.png using Guid(154d9fe3e4996fc4993c367f328b33c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1da82414fd33d729af703e69b0a1dd57') in 0.0135393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Chris-Good/AK Studio Art/Bust Of Sappho/Built-in Extract Me.unitypackage
-  artifactKey: Guid(6c88ddbf27540cd42991e48ec3c9ec2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Chris-Good/AK Studio Art/Bust Of Sappho/Built-in Extract Me.unitypackage using Guid(6c88ddbf27540cd42991e48ec3c9ec2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '778cc85437c2ed4d4244589b6f7b0ba3') in 0.0113675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Doors
-  artifactKey: Guid(a05221b2fd181c54b879864a4503c60d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Stone/Doors using Guid(a05221b2fd181c54b879864a4503c60d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d0209a21276b39a29169e3d34701843') in 0.0088862 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (10).prefab
-  artifactKey: Guid(fdec2343e28e33541bc788a20ed6fa4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (10).prefab using Guid(fdec2343e28e33541bc788a20ed6fa4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '828acedaa58fc7e87b572cb41a9d342f') in 0.0112635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Floor-Stone-Model-03.fbx
-  artifactKey: Guid(03cbc850a19aa0345b9554d1c90faa78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Floor-Stone-Model-03.fbx using Guid(03cbc850a19aa0345b9554d1c90faa78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1020e689b0d0d8004a69f867e7541247') in 0.0139977 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Corner-Stone-Model-01.fbx
-  artifactKey: Guid(413012ff581a37e48920be52d807f4ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Corner-Stone-Model-01.fbx using Guid(413012ff581a37e48920be52d807f4ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2595ff1cadde06016e5548d0cf7479b7') in 0.0150579 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-11.png
-  artifactKey: Guid(92fdb74de751e4f4a83b8a1d7bfeb29e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-11.png using Guid(92fdb74de751e4f4a83b8a1d7bfeb29e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f51e9914fac848cb8e3cfcbec6965139') in 0.0120771 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Floor-Wood-Model-02.png
-  artifactKey: Guid(5ca38be5f0c1e85438fd46c989a9e4fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Floor-Wood-Model-02.png using Guid(5ca38be5f0c1e85438fd46c989a9e4fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14694dda2a6432ffceb9b6537a6ffac6') in 0.0202759 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Door-Wood-Model-02.fbx
-  artifactKey: Guid(f0e081e328e30854da83a08974ef6b0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Door-Wood-Model-02.fbx using Guid(f0e081e328e30854da83a08974ef6b0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47865c37307c4988d50a73aca8eba874') in 0.030719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-03.png
-  artifactKey: Guid(b5b67259540d6bf4b9e825e43b59b410) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-03.png using Guid(b5b67259540d6bf4b9e825e43b59b410) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36a0f2677ef87e01e00e6421b1e6d5e5') in 0.0122831 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-01.png
-  artifactKey: Guid(9deb3ae92156f7b4995f914f483a06e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-01.png using Guid(9deb3ae92156f7b4995f914f483a06e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22ac50e6b3ce3adf07414176141e829b') in 0.032642 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-05.mat
-  artifactKey: Guid(8325361387834014a9ef33531464743c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-05.mat using Guid(8325361387834014a9ef33531464743c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1193e705451689a13c760a90b0030a91') in 0.0114792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Chris-Good/AK Studio Art/Bust Of Sappho/Models
-  artifactKey: Guid(833345b3c35c6ce4781a8c6444e91673) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Chris-Good/AK Studio Art/Bust Of Sappho/Models using Guid(833345b3c35c6ce4781a8c6444e91673) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8339cbef1948586bffd1209f9f82742') in 0.008972 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Settings/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c925f262c9d399aa8bf14087d9e3f7c') in 0.0772257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Corner-Wood-Model-04.fbx
-  artifactKey: Guid(ad296451297fb5041a5a13cc354c0bf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Corner-Wood-Model-04.fbx using Guid(ad296451297fb5041a5a13cc354c0bf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94ceb26198533dea7a752ff945da3220') in 0.013256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-10.png
-  artifactKey: Guid(73a539225e2e1334e8032e8f43a49314) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-10.png using Guid(73a539225e2e1334e8032e8f43a49314) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8332e39d0fcc12521fdeab5085b33e3') in 0.0132171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-02.mat
-  artifactKey: Guid(5ef5271cc1e75574995ddec7d0186fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-02.mat using Guid(5ef5271cc1e75574995ddec7d0186fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fa75e7cc55e64a9c58abede71752a5b') in 0.0108261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone
-  artifactKey: Guid(3a844e439aab3b949946b51f233e51dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone using Guid(3a844e439aab3b949946b51f233e51dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9be4ca9529f1cba56e59553e875e75ea') in 0.0098241 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Corner-Wood-Model-03.fbx
-  artifactKey: Guid(4258197bb6e4954499326e662d928b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/Corner-Wood-Model-03.fbx using Guid(4258197bb6e4954499326e662d928b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da8bd573c278376615dc4dda18fc50fb') in 0.032555 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (1).prefab
-  artifactKey: Guid(0866de07a9e9b4a4ea72bedea81f3389) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (1).prefab using Guid(0866de07a9e9b4a4ea72bedea81f3389) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec2aeb29c884d02894ebe774aa1997f1') in 0.0116078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-07.mat
-  artifactKey: Guid(ac519ce1f0b9273469231f091560a86a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-07.mat using Guid(ac519ce1f0b9273469231f091560a86a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53fb7c0791ea49e30b5b0edd1f2519b4') in 0.0104453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Corner-Stone-Model-04.fbx
-  artifactKey: Guid(cd2ecb50216bef6438267172d464d5ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/Corner-Stone-Model-04.fbx using Guid(cd2ecb50216bef6438267172d464d5ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c5c224400f215ddab57526e98d6f55f') in 0.0141687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

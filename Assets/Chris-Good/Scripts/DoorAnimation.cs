@@ -2,28 +2,19 @@ using UnityEngine;
 
 public class DoorAnimation : MonoBehaviour
 {
-    public Animation doorAnimation;
-    public AnimationClip openClip;
-    public AnimationClip closeClip;
-    
-    bool doorOpen = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        doorAnimation = GetComponent<Animation>();
-    }
+    [SerializeField] private Animator doorAnimation;
+    [SerializeField] private bool doorOpen = true;
 
-    // Update is called once per frame
-    void Update()
+    public void OpenDoor()
     {
-        if (Input.GetKeyDown("f") && !doorOpen)
+        if (doorOpen)
         {
-                doorAnimation.AddClip(openClip,"Open Door");
-                doorAnimation.Play();
-            } else
-            {
-                doorAnimation.AddClip(closeClip,"Close Door");
-                doorAnimation.Play();
-            }
+            doorAnimation.Play("Open Door");
+            doorOpen = !doorOpen;
+        } else
+        {
+            doorAnimation.Play("Close Door");
+            doorOpen = !doorOpen;
+        }
     }
 }

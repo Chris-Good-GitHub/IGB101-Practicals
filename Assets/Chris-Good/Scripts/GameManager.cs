@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     public int currentPickups = 0;
     public int maxPickups = 5;
     public bool levelComplete = false;
+    public DoorAnimation doorAnimation;
+    public PortalRiseAnimation portalAnimation;
+    public GameObject portalEffects;
 
     //Audio Proximity Logic
     public AudioSource[] audioSources;
@@ -17,7 +20,7 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        portalEffects.SetActive(false);
     }
 
     // Update is called once per frame
@@ -25,6 +28,10 @@ public class GameManager : MonoBehaviour
     {
         LevelCompleteCheck();
         UpdateGUI();
+        if (Input.GetKeyDown("f"))
+        {
+            doorAnimation.OpenDoor();
+        }
     }
 
     private void LevelCompleteCheck()
@@ -32,6 +39,8 @@ public class GameManager : MonoBehaviour
         if (currentPickups >= maxPickups)
         {
             levelComplete = true;
+            portalAnimation.RaisePortal();
+            portalEffects.SetActive(true);
         } else
         {
             levelComplete = false;
