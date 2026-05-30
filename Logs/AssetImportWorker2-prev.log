@@ -1,51 +1,49 @@
+Unity Editor version:    6000.3.10f1 (e35f0c77bd8e)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.7.5 (Build 24G624)
+Darwin version:          24.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Date:                    2026-05-30T01:14:07Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16264 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris" at "2026-05-29T10:55:32.7943204Z"
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-System  architecture: x64
-Process architecture: x64
-Date: 2026-05-29T10:55:32Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-z7aMhjyWB45tXqMJDKriO" at "2026-05-30T01:14:07.595753Z"
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-D:/Unity Projects/IGB101-Practicals
+/Users/echo/gIThub/IGB101-Practicals
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53921
+62499
 -licensingIpc
-LicenseClient-chris
+LicenseClient-z7aMhjyWB45tXqMJDKriO
 -job-worker-count
-5
+3
 -background-job-worker-count
 8
 -gc-helper-count
 1
--name
-AssetImport
-Successfully changed project path to: D:/Unity Projects/IGB101-Practicals
-D:/Unity Projects/IGB101-Practicals
+-name AssetImport
+Successfully changed project path to: /Users/echo/gIThub/IGB101-Practicals
+/Users/echo/gIThub/IGB101-Practicals
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
-    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-    "memorysetup-temp-allocator-size-audio-worker=65536"
-    "memorysetup-temp-allocator-size-gfx=262144"
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -66,14 +64,23 @@ D:/Unity Projects/IGB101-Practicals
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [4108]  Target information:
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8600576576]  Target information:
 
-Player connection [4108]  * "[IP] 192.168.0.2 [Port] 0 [Flags] 2 [Guid] 1092180310 [EditorId] 1092180310 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BR6MOGS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8600576576]  * "[IP] 192.168.20.135 [Port] 0 [Flags] 2 [Guid] 4115374560 [EditorId] 4115374560 [Version] 1048832 [Id] OSXEditor(0,Mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [4108] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4108] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [8600576576]  * "[IP] 10.211.55.2 [Port] 0 [Flags] 2 [Guid] 4115374560 [EditorId] 4115374560 [Version] 1048832 [Id] OSXEditor(0,Mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8600576576]  * "[IP] 10.37.129.2 [Port] 0 [Flags] 2 [Guid] 4115374560 [EditorId] 4115374560 [Version] 1048832 [Id] OSXEditor(0,Mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8600576576] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8600576576] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -84,86 +91,98 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity Projects/IGB101-Practicals/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/echo/gIThub/IGB101-Practicals/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 7800 XT (ID=0x747e)
-    Vendor:   ATI
-    VRAM:     16341 MB
-    Driver:   32.0.31007.5012
+ preferred device: Apple M3 (high power)
+Metal devices available: 1
+0: Apple M3 (high power)
+Using device Apple M3 (high power)
+Initializing Metal device caps: Apple M3
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002104 seconds.
-- Loaded All Assemblies, in  0.497 seconds
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001374 seconds.
+- Loaded All Assemblies, in  0.296 seconds
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              ecf57c1339f1403b90926b3145f2f4bb
-  Correlation Id:          16f46e978072a876fdb4b5e75678658a
-  External correlation Id: 5826167487302825116
-  Machine Id:              vDHyUSAUdQ4B/w9NoV1s/bF2K5w=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-chris" (connect: 0.00s, validation: 0.00s, handshake: 1.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris-notifications" at "2026-05-29T10:55:33.8150646Z"
-[Licensing::Module] Licensing Background thread has ended after 1.02s
+  Session Id:              085a8b2a467646f0b3255cf23276d21d
+  Correlation Id:          304c732a3a6c037d6b83c5666f42ccdf
+  External correlation Id: 452055085251928364
+  Machine Id:              YJcPtAPSrdKZ2FeN882rM+fj6HQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-z7aMhjyWB45tXqMJDKriO" (connect: 0.00s, validation: 0.00s, handshake: 0.74s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-z7aMhjyWB45tXqMJDKriO-notifications" at "2026-05-30T01:14:08.337867Z"
+[Licensing::Module] Licensing Background thread has ended after 0.74s
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.436 seconds
-Domain Reload Profiling: 928ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 607ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (209ms)
-		LoadAssemblies (167ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (100ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (203ms)
-				TypeCache.ScanAssembly (188ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (116ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (436ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (311ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (390ms)
+		SetupLoadedEditorAssemblies (278ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (159ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 16768294965753-UnityPersXXXX
+  Id: 16768332456674-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.781 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.488 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -173,221 +192,319 @@ Package Manager log level set to [2]
 [MODES] Loading mode Default (0) for mode-current-id-Blake
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.807 seconds
-Domain Reload Profiling: 1584ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  0.531 seconds
+Domain Reload Profiling: 1018ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (486ms)
-		LoadAssemblies (347ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (215ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (242ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (157ms)
-			BuildScriptInfoCaches (59ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (807ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (30ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (531ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (613ms)
+		SetupLoadedEditorAssemblies (406ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (172ms)
-			ProcessInitializeOnLoadAttributes (327ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (2ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6576 unused Assets / (4.4 MB). Loaded Objects now: 7421.
-Memory consumption went from 152.0 MB to 147.6 MB.
-Total: 10.783400 ms (FindLiveObjects: 0.699900 ms CreateObjectMapping: 0.889200 ms MarkObjects: 6.509200 ms  DeleteObjects: 2.684300 ms)
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (4.4 MB). Loaded Objects now: 7413.
+Memory consumption went from 146.1 MB to 141.7 MB.
+Total: 7.806041 ms (FindLiveObjects: 1.327166 ms CreateObjectMapping: 0.157625 ms MarkObjects: 4.759833 ms  DeleteObjects: 1.561250 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1553.786742 seconds.
-  path: Assets/Blake/Imported Assets/Custom Lighting/Colorised Lighting Blue.mat
-  artifactKey: Guid(bf2a6fc216a728a4fb3b7c7f9988a4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/Colorised Lighting Blue.mat using Guid(bf2a6fc216a728a4fb3b7c7f9988a4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56018719b2b7f7dc7a06eb4077c78ec8') in 0.1134178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 130953.477922 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.mat
+  artifactKey: Guid(549e14b0782f578449d1f6c4ab6094ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.mat using Guid(549e14b0782f578449d1f6c4ab6094ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82e1f1946b40f9b4e7eb892a4310244c') in 0.046096375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blake/Imported Assets/Custom Lighting/Additional Lights/Additional Lights Basic.shadersubgraph
-  artifactKey: Guid(41af5c1894892104ba0d9c57664cdb4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/Additional Lights/Additional Lights Basic.shadersubgraph using Guid(41af5c1894892104ba0d9c57664cdb4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36b0540598207993350240877c6e38a1') in 0.0386392 seconds
+  Time since last request: 0.000085 seconds.
+  path: Assets/Blake/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '977aeab1720da764b01c4e43e0e81a38') in 0.004462917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Fog.shadersubgraph
+  artifactKey: Guid(ffb47cc2d0b72a949baa2de6f4e2355b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Fog.shadersubgraph using Guid(ffb47cc2d0b72a949baa2de6f4e2355b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb9550105606f1e8fc0b75ed02c254e0') in 0.01471675 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-12.mat
+  artifactKey: Guid(db22b3bd37f6220479b2d443a523f0b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-12.mat using Guid(db22b3bd37f6220479b2d443a523f0b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a94146f68a1bd04ceda63bd576450566') in 0.003248334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
   path: Assets/Blake/Imported Assets/Custom Lighting/Lit.shadersubgraph
   artifactKey: Guid(7ae2ea4d0f8494f4da9adab28b09f6b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/Lit.shadersubgraph using Guid(7ae2ea4d0f8494f4da9adab28b09f6b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0551927a1a7df3160f5c32f2407fab9') in 0.0166514 seconds
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Lit.shadersubgraph using Guid(7ae2ea4d0f8494f4da9adab28b09f6b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa1b19d34216a18edef8106c8421f17f') in 0.002964583 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Blake/Imported Assets/Custom Lighting/Colorised Lighting Green.mat
-  artifactKey: Guid(d5fa8a0e65d15ac4d91c281590f47f96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/Colorised Lighting Green.mat using Guid(d5fa8a0e65d15ac4d91c281590f47f96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '297207f003fa706411c6ea85bd123ba2') in 0.0178604 seconds
+  Time since last request: 0.000067 seconds.
+  path: Assets/Chris-Good/Materials and Textures/Flag/FlagBack.mat
+  artifactKey: Guid(49470600454bcd5469752b6f5e15ef3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Chris-Good/Materials and Textures/Flag/FlagBack.mat using Guid(49470600454bcd5469752b6f5e15ef3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8903bdb4b7be3633537f7d10f4acd2f7') in 0.002082333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Custom Lighting.shadergraph
+  artifactKey: Guid(cdfab7baf1d5a044a9151c0184dba0a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Custom Lighting.shadergraph using Guid(cdfab7baf1d5a044a9151c0184dba0a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5c17035000ee727eb1f37dff5c6ce33') in 0.021595666 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/IsaacR/Third Person Controller/Robot Kyle
-  artifactKey: Guid(ac519ed41fea91a43ab0fdef13abcae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/IsaacR/Third Person Controller/Robot Kyle using Guid(ac519ed41fea91a43ab0fdef13abcae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7afab1aea21a8748be25d34e5e96e14f') in 0.0086223 seconds
+  Time since last request: 0.000048 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Colorised Lighting Pink.mat
+  artifactKey: Guid(b90316cc8416ecf43bcf143b61eae722) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Colorised Lighting Pink.mat using Guid(b90316cc8416ecf43bcf143b61eae722) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd495aaa586e8b465b2d942fb39e4f9a') in 0.006746334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Chris-Good/Materials and Textures/Rock/Materials
+  artifactKey: Guid(5320e23976751594ca0347d34fff10ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Chris-Good/Materials and Textures/Rock/Materials using Guid(5320e23976751594ca0347d34fff10ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64bbf67e86ef134090f9ddd32a816231') in 0.001650709 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Blake/Imported Assets/Textures/Fire Mat.mat
-  artifactKey: Guid(5767c8bc51089c244b4af657367a5165) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Textures/Fire Mat.mat using Guid(5767c8bc51089c244b4af657367a5165) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e78629531222cc5e549eddd5ce52fcf0') in 0.0130633 seconds
+  Time since last request: 0.000064 seconds.
+  path: Assets/Chris-Good/Materials and Textures/Particle Effects/Smoke.mat
+  artifactKey: Guid(d989191a1d1366945874eeae0f8af663) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Chris-Good/Materials and Textures/Particle Effects/Smoke.mat using Guid(d989191a1d1366945874eeae0f8af663) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6378e7b140d270be246ec029c8b09eac') in 0.080575584 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Blake/Imported Assets/Materials/Fireball.mat
-  artifactKey: Guid(63e140a2f42186542b4bfdb5f8150caf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Materials/Fireball.mat using Guid(63e140a2f42186542b4bfdb5f8150caf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a4873e482fb0acb5c75702659ff1fe5') in 0.0183815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Blake/Imported Assets/Custom Lighting/Ambient/SSAO.shadersubgraph
-  artifactKey: Guid(f636002efb46c18488a7fcaecb9ccb1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/Ambient/SSAO.shadersubgraph using Guid(f636002efb46c18488a7fcaecb9ccb1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5ee81a34a8f3c3a72eb2f5abfe46978') in 0.0140072 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/Chris-Good/Materials and Textures/FlagBack.png
+  artifactKey: Guid(afc59bf90bf961e43a1adeabec9e1d7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Chris-Good/Materials and Textures/FlagBack.png using Guid(afc59bf90bf961e43a1adeabec9e1d7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fecec6ecc1f8fa9bc5c6d687cfdd4316') in 0.024832208 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
+  Time since last request: 0.000031 seconds.
   path: Assets/Blake/Imported Assets/Textures/Fireball.psd
   artifactKey: Guid(63560e3c90400cf4aa90e0c22b5d2440) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Textures/Fireball.psd using Guid(63560e3c90400cf4aa90e0c22b5d2440) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb5f57d2dbc54284e1e1a65be428a576') in 0.0387981 seconds
+Start importing Assets/Blake/Imported Assets/Textures/Fireball.psd using Guid(63560e3c90400cf4aa90e0c22b5d2440) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20acb9aacb439d3867cc2b12d88a87ab') in 0.004657709 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Chris-Good/Materials and Textures/Particle Effects/Smoke.psd
+  artifactKey: Guid(aa18bc9e5127cf5439eba36959124374) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Chris-Good/Materials and Textures/Particle Effects/Smoke.psd using Guid(aa18bc9e5127cf5439eba36959124374) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbb122309aaee0ab4eaa8885d85e7074') in 0.004745209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/New Material.mat
+  artifactKey: Guid(f5b3ed65c78d99c42af3232482c15f87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/New Material.mat using Guid(f5b3ed65c78d99c42af3232482c15f87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b00debb5c40faa4940ca76be535ce05') in 0.008711875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Additional Lights/Additional Lights Half Lambert.shadersubgraph
+  artifactKey: Guid(7a2d72f8cfb9bfc45997aa8765b994b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Additional Lights/Additional Lights Half Lambert.shadersubgraph using Guid(7a2d72f8cfb9bfc45997aa8765b994b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '511024eeb675913f792861231c4aaac4') in 0.004486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Noir.mat
+  artifactKey: Guid(5490ff07bbc1d9844b4bdb5e3a5e4f40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Noir.mat using Guid(5490ff07bbc1d9844b4bdb5e3a5e4f40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02aa610cf717b37d4eba159e4f1b5def') in 0.006430958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Blake/Imported Assets/Textures/Smoke Mat.mat
+  artifactKey: Guid(55a919c8a10654f41a0f5a7490c072fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Textures/Smoke Mat.mat using Guid(55a919c8a10654f41a0f5a7490c072fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ec844f50828f46798a68fa4d46fdc3a') in 0.00301025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Additional Lights/Additional Lights.shadersubgraph
+  artifactKey: Guid(1d1d4f2ab3412fc4c82e76b1aa50c26f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Additional Lights/Additional Lights.shadersubgraph using Guid(1d1d4f2ab3412fc4c82e76b1aa50c26f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '695f05d37953fe09b49b51fc81f78ed2') in 0.002717834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Ambient
+  artifactKey: Guid(decc179da08a91446bd394d9b393643f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Ambient using Guid(decc179da08a91446bd394d9b393643f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b4741fc9f9a1ec9bea279c9f835bf1f') in 0.001229334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Noir Lighting.shadersubgraph
+  artifactKey: Guid(6c0ab9ec68236744584e5ed72693dade) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Noir Lighting.shadersubgraph using Guid(6c0ab9ec68236744584e5ed72693dade) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f64805688460f3248c6880d0191f8d9') in 0.003033959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Blake/Prefabs/Pickup Audio.prefab
+  artifactKey: Guid(20b7b970cb46c694892734dea68cc802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Prefabs/Pickup Audio.prefab using Guid(20b7b970cb46c694892734dea68cc802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '259483eccda4c8d35a343790e78c0121') in 0.016686583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Simple Lighting.shadersubgraph
+  artifactKey: Guid(f042cf0f1b2e1c34385c0b5683afbaf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Simple Lighting.shadersubgraph using Guid(f042cf0f1b2e1c34385c0b5683afbaf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'afa5aef14cc2bea45d7178d58c88bdcd') in 0.004404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Specular
+  artifactKey: Guid(e9cbfdc1d6cda014881403e1301cb9dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Specular using Guid(e9cbfdc1d6cda014881403e1301cb9dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '046de241920b0693270c3a15f72f7f6d') in 0.001706333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Ambient/Ambient Simple.shadersubgraph
+  artifactKey: Guid(d57fbaa6fd507c14398aebc169c29746) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Ambient/Ambient Simple.shadersubgraph using Guid(d57fbaa6fd507c14398aebc169c29746) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23c5c7a08a6960db02cfcdb228ee72d2') in 0.0036465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Diffuse/Diffuse Half Lambert.shadersubgraph
+  artifactKey: Guid(6526e9556928b3146acaa1e9de7e5aae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Diffuse/Diffuse Half Lambert.shadersubgraph using Guid(6526e9556928b3146acaa1e9de7e5aae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '141d86051606a971fa04ca2cf4b682ad') in 0.003391208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Chris-Good/Materials and Textures/Wood
+  artifactKey: Guid(af911b5924752574a87161a1a5a8577f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Chris-Good/Materials and Textures/Wood using Guid(af911b5924752574a87161a1a5a8577f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1dce0d07830cf608405c7dbef9e118d') in 0.001093125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-12.mat
+  artifactKey: Guid(14f7e7927be7d8f478a76577b849efe0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Models/Environment/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-12.mat using Guid(14f7e7927be7d8f478a76577b849efe0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80c3086f2ffcffe048a709ab54d46c31') in 0.003044584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/IsaacR/Third Person Controller/Player.prefab
-  artifactKey: Guid(df515479b04904c40aca5f4604b69485) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/IsaacR/Third Person Controller/Player.prefab using Guid(df515479b04904c40aca5f4604b69485) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e6ea8884a012c34b24053ef06e92f34') in 0.0319675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 111
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blake/Imported Assets/Custom Lighting/Ambient/Ambient Simple SSAO.shadersubgraph
-  artifactKey: Guid(29b49115392a4aa4fa8266312a84579d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/Ambient/Ambient Simple SSAO.shadersubgraph using Guid(29b49115392a4aa4fa8266312a84579d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '092a89d276f02199d616110b96d58440') in 0.0121551 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Blake/Imported Assets/Custom Lighting/Noir.mat
-  artifactKey: Guid(5490ff07bbc1d9844b4bdb5e3a5e4f40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/Noir.mat using Guid(5490ff07bbc1d9844b4bdb5e3a5e4f40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6533d1f9f7f8e3767372aa351be47ffa') in 0.0180734 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Blake/Imported Assets/Custom Lighting/Additional Lights/Additional Lights Colourised.shadersubgraph
-  artifactKey: Guid(da3698e7fca03784183d3641d938117c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/Additional Lights/Additional Lights Colourised.shadersubgraph using Guid(da3698e7fca03784183d3641d938117c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ef06cc8d7ae697b5765e53d5c898835') in 0.0115197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Blake/Imported Assets/Custom Lighting/Specular/Specular Blinn.shadersubgraph
-  artifactKey: Guid(44c71bcc5331a7b42aa787996c19a665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/Specular/Specular Blinn.shadersubgraph using Guid(44c71bcc5331a7b42aa787996c19a665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'accfdef231bbbadbd0028b4105560a1d') in 0.0128068 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Blake/Imported Assets/Custom Lighting/light cookie.png
-  artifactKey: Guid(24511adcb5692a349b849be94bb3c2e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/light cookie.png using Guid(24511adcb5692a349b849be94bb3c2e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6dd529ec5ebf5aa420be4c76def5ced5') in 0.0263428 seconds
+  path: Assets/Blake/Imported Assets/Custom Lighting/Custom Lighting.shadersubgraph
+  artifactKey: Guid(4f9381e00479bde469e244431b25e377) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Custom Lighting.shadersubgraph using Guid(4f9381e00479bde469e244431b25e377) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '239d326046a303ecdea4179a01753270') in 0.002880458 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/Blake/Imported Assets/Custom Lighting/Simple Lighting.shadersubgraph
-  artifactKey: Guid(f042cf0f1b2e1c34385c0b5683afbaf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Custom Lighting/Simple Lighting.shadersubgraph using Guid(f042cf0f1b2e1c34385c0b5683afbaf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c49e3cb3392385fccd7eda00bcdb02a4') in 0.0195989 seconds
+  path: Assets/Chris-Good/Materials and Textures/Particle Effects/Fireball.psd
+  artifactKey: Guid(8868c79c20bf626478ef068549527d9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Chris-Good/Materials and Textures/Particle Effects/Fireball.psd using Guid(8868c79c20bf626478ef068549527d9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '925ea4d925fcb473e82715c1ea50ec2c') in 0.004644292 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Blake/Imported Assets/Materials/Pickup.mat
-  artifactKey: Guid(52cd434a5876fde4b97e94dba7493de0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Imported Assets/Materials/Pickup.mat using Guid(52cd434a5876fde4b97e94dba7493de0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffa559a5677ad4e96ee1350cd01cf851') in 0.0138443 seconds
+  Time since last request: 0.000062 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Ambient/Ambient Basic.shadersubgraph
+  artifactKey: Guid(b2d2307730a34fc40845d053da3edaf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Ambient/Ambient Basic.shadersubgraph using Guid(b2d2307730a34fc40845d053da3edaf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ec891397122b0a6e6422f7efe12763e') in 0.002865791 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Blake/Prefabs/Brick Doorway.prefab
-  artifactKey: Guid(94ee7bc5460c35c499b235c44e01fe9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Blake/Prefabs/Brick Doorway.prefab using Guid(94ee7bc5460c35c499b235c44e01fe9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0a57db6bfb0cb689cd29a660edf43f8') in 0.0758095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 0.000028 seconds.
+  path: Assets/Chris-Good/Materials and Textures/Flag
+  artifactKey: Guid(6bd1a85f05c45ba4d8a52a0cdc901acd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Chris-Good/Materials and Textures/Flag using Guid(6bd1a85f05c45ba4d8a52a0cdc901acd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '851051325064502a74831dc921b19766') in 0.0016825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/IsaacR/InputSystem_Actions.inputactions
-  artifactKey: Guid(aae20633871f3544ab7fc7a28337336a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/IsaacR/InputSystem_Actions.inputactions using Guid(aae20633871f3544ab7fc7a28337336a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1d2814a66d727d829da0b73a5d3e640') in 0.1749183 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.654039 seconds.
-  path: Assets/Chris-Good/Scenes/IGB101 Assignment 1 Christopher Good.unity
-  artifactKey: Guid(f4e47a073ee39f34a804216edcba13b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chris-Good/Scenes/IGB101 Assignment 1 Christopher Good.unity using Guid(f4e47a073ee39f34a804216edcba13b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c106ab35cd9b4c37a287d180ce729fc9') in 0.0004899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.709260 seconds.
-  path: Assets/Blake/Scenes/Blake.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Scenes/Blake.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f090af08115cbc6ffffd63e05e558ab') in 0.0005562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000065 seconds.
+  path: Assets/Blake/Imported Assets/Custom Lighting/Diffuse/Diffuse Lambert.shadersubgraph
+  artifactKey: Guid(bb4f34476b31e7b4290cc7a9f302cf76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Blake/Imported Assets/Custom Lighting/Diffuse/Diffuse Lambert.shadersubgraph using Guid(bb4f34476b31e7b4290cc7a9f302cf76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6afa35022226e82b5e22c7a1fd1df798') in 0.003211834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.699 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Thread 0x17f2ef000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.426 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -395,76 +512,53 @@ Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].LoadModes
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.690 seconds
-Domain Reload Profiling: 1389ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  0.596 seconds
+Domain Reload Profiling: 1024ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (399ms)
-		LoadAssemblies (332ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (165ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (167ms)
+		AnalyzeDomain (122ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (146ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (691ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (596ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (541ms)
+		SetupLoadedEditorAssemblies (478ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (301ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6576 unused Assets / (4.9 MB). Loaded Objects now: 7439.
-Memory consumption went from 157.6 MB to 152.8 MB.
-Total: 11.635100 ms (FindLiveObjects: 0.774700 ms CreateObjectMapping: 0.803500 ms MarkObjects: 6.712100 ms  DeleteObjects: 3.343500 ms)
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6580 unused Assets / (3.2 MB). Loaded Objects now: 7432.
+Memory consumption went from 160.8 MB to 157.6 MB.
+Total: 8.828625 ms (FindLiveObjects: 0.623708 ms CreateObjectMapping: 0.238375 ms MarkObjects: 6.369500 ms  DeleteObjects: 1.596625 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 71.551246 seconds.
-  path: Assets/Blake/Scripts/Door Anim.cs
-  artifactKey: Guid(95be5cb6bda6218468aac3b3e99d2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Scripts/Door Anim.cs using Guid(95be5cb6bda6218468aac3b3e99d2b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '924415f4b861620f54a1cb998c6a13f5') in 0.0017424 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.059455 seconds.
-  path: Assets/Blake/Scripts/Gameplay Logic/LevelSwitch.cs
-  artifactKey: Guid(f5e960697f5312344b92a48db0543db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blake/Scripts/Gameplay Logic/LevelSwitch.cs using Guid(f5e960697f5312344b92a48db0543db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f3a77a76e9ffeba8914dd2c9154b223') in 0.0006085 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 376.096276 seconds.
-  path: Assets/Chris-Good/HDRP Extract Me.unitypackage
-  artifactKey: Guid(f49c0147c6a43294cb2744ac4e6c5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chris-Good/HDRP Extract Me.unitypackage using Guid(f49c0147c6a43294cb2744ac4e6c5041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47c1a427dc14e30938ad9b0f5afddede') in 0.0237281 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.249306 seconds.
-  path: Assets/Chris-Good/URP Extract Me.unitypackage
-  artifactKey: Guid(f8f6f87f7bbdb78429c6debe606a0e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chris-Good/URP Extract Me.unitypackage using Guid(f8f6f87f7bbdb78429c6debe606a0e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e49382a9b07819fd54e082337d59cd73') in 0.0007726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
