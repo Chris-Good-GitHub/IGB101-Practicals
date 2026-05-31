@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/IsaacR/scripts/GameManager.cs" />
+    <Compile Include="Assets/IsaacR/scripts/ThirdPersonCamera.cs" />
     <Compile Include="Assets/IsaacR/scripts/LevelSwitch.cs" />
     <Compile Include="Assets/IsaacR/scripts/CameraMovement.cs" />
     <Compile Include="Assets/IsaacR/scripts/Pickup.cs" />
